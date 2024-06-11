@@ -1,5 +1,6 @@
 <?php 
 $name = $_GET['name']
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,8 +11,9 @@ $name = $_GET['name']
 <body>
 
 
-    <h1><?php echo 'input inserito: ' . $name; ?></h1>
-    <h2><?php echo 'lunghezza input: ' . strlen($name); ?></h2>
+    <h1><?php echo 'Name: ' . $name; ?></h1>
+    <h2><?php echo 'lunghezza name: ' . strlen($name); ?></h2>
+    <h2><?php echo 'Censored: ' . str_repeat('*', 3); ?></h2>
 
 
 </body>

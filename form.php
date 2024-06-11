@@ -8,6 +8,8 @@
 <body>
 
 <form action="./elabora.php" method="GET">
+
+    <h2>Name</h2>
     <input type="text" placeholder="name" name="name">
     <button type="submit">invia</button>
 </form>
